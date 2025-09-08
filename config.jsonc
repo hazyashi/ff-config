@@ -1,0 +1,135 @@
+/* omg ashi made this... waow */
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+        "source": "auto",
+        /*for distro ascii art you can put a specific distro name or auto for your distro ascii. 
+        to use a image insert the path into the source */
+        "type": "auto",
+        /* if using distro ascii you can put "small" for a smaller logo*/
+        "height": 20,
+        "width": 30,
+        "padding": {
+            "top": 1,
+            "left": 0,
+            "right": 1
+        }
+    },
+    "display": {
+        "separator": "❥ ",
+         "color":  "green"
+    },
+    "modules": [
+        "break",
+
+        {
+        "type": "custom",
+            "format": "   \u001b[31m❤    \u001b[32m❤    \u001b[33m❤    \u001b[34m❤    \u001b[35m❤    \u001b[36m❤    \u001b[37m❤    \u001b[90m❤   "
+              },
+        {
+                "type": "custom",
+            "format": "\u001b[36m╭────────────✧◦°˚°◦ ♡ ◦°˚°◦✧────────────╮"
+      },
+      {
+      "type": "custom",
+      "format": "\u001b[36m│              \u001b[35m~software~               \u001b[36m│"
+      },
+      {
+        "type": "title",
+    "key": " ✉ ",
+    "format": "{1}",
+    "keyColor": "\u001b[31m",
+      },
+      {
+        "type": "os",
+    "key": "  ",
+    "format": "{4} {9}",
+    "keyColor": "\u001b[32m",
+       },
+        {
+            "type": "kernel",
+            "key": "  ",
+            "format": "",
+            "keyColor": "\u001b[33m"
+        },
+        {
+          "type": "de",
+            "key": " 󰨇 ",
+            "format": "",
+            "keyColor": "\u001b[34m"
+        },
+        {
+            "type": "wm",
+            "key": "  ",
+            "format": "{2}({3})",
+            "keyColor": "\u001b[34m"
+        },
+        {
+            "type": "shell",
+            "key": "  ",
+            "keyColor": "\u001b[35m"
+        },
+        {
+            "type": "terminal",
+            "key": "  ",
+            "keyColor": "\u001b[36m"
+        },
+        {
+            "type": "packages",
+            "key": " 󰏖 ",
+            "format": "",
+            "keyColor": "\u001b[37m"
+        },
+        {
+         "type": "custom",
+            "format": "\u001b[36m╰────────────✧◦°˚°◦ ♡ ◦°˚°◦✧────────────╯"
+            },
+            {
+                 "type": "custom",
+            "format": "\u001b[36m╭────────────✧◦°˚°◦ ♡ ◦°˚°◦✧────────────╮"
+            },
+        {
+        "type": "custom",
+        "format": "\u001b[36m│              \u001b[35m~hardware~               \u001b[36m│"
+        },
+        {
+         "type": "host",
+    "key": " 󰌢 ",
+    "format": "{1} {5}",
+    "keyColor": "\u001b[35m"
+        },
+        {
+        "type": "cpu",
+          "key": " 󰻠 ",
+          "format": "{1}",
+          "keyColor": "\u001b[36m"
+    },
+    {
+      "type": "gpu",
+    "key": " 󰻑 ",
+    "format": "{2}",
+    "keyColor": "\u001b[35m"
+    },
+        {
+            "type": "memory",
+            "key": " 󰍛 ",
+            "keyColor": "\u001b[36m",
+            // format: used / total
+            "format": "{1} / {2}"
+        },
+        {
+            "type": "display",
+            "key": "  ",
+            "keyColor": "\u001b[35m"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[36m╰────────────✧◦°˚°◦ ♡ ◦°˚°◦✧────────────╯"
+        },
+        {
+            "type": "custom",
+            "format": "   \u001b[31m❤    \u001b[32m❤    \u001b[33m❤    \u001b[34m❤    \u001b[35m❤    \u001b[36m❤    \u001b[37m❤    \u001b[90m❤   "
+        },
+		"break",
+    ]
+}
