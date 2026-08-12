@@ -122,18 +122,30 @@
         {
             "type": "sound",
             "key": "\u001b[36m│├\u001b[35maudio ",
+        }, 
+        {
+            "type": "command",
+            "key": "\u001b[36m│├\u001b[35mmouse ",
+            "text": "grep -E 'Name=' /proc/bus/input/devices | grep -E -i 'wireless'| cut -d'\"' -f2 | sort -u | head -n 1"
         },
+        {
+            "type": "command",
+            "key": "\u001b[36m│├\u001b[35mkeyboard",
+           "text": "lsusb | cut -d' ' -f7- | sort -u | head -n 1"
+        },
+        // I have a bug where the keyboard shows up twice on my pc so i comment these out and use manual commands instead shown above,
+        // edit or comment those out if needed
+        // {
+        //     "type": "mouse",
+        //     "key": "\u001b[36m│├\u001b[35mmouse ",
+        // },
         // {
         //     "type": "keyboard",
-        //     "key": "\u001b[36m│├\u001b[35mcontrol",
+        //     "key": "\u001b[36m│├\u001b[35mkeyboard",
         // },
         {
-            "type": "mouse",
-            "key": "\u001b[36m│├\u001b[35mcontrol"
-        },
-        {
             "type": "display",
-            "key": "\u001b[36m│└\u001b[35mdisplay",
+            "key": "\u001b[36m│└\u001b[35mdisplay ",
         },
         {
             "type": "custom",
