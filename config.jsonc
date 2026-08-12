@@ -1,0 +1,148 @@
+/* omg ashi made this... waow */
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+        "source": "~/.config/fastfetch/yachiyo.png",
+        /*for distro ascii art you can put a specific distro name or auto for your distro ascii. 
+        to use a image insert the path into the source */
+        "type": "auto",
+        /* if using distro ascii you can put "small" for a smaller logo*/
+        "height": 20,
+        "width": 30,
+        "padding": {
+            "top": 4,
+            "bottom": 0,
+            "left": 0,
+            "right": 3,
+         }
+       },
+        "display": {
+                "separator": "❥ ",
+                 "color":  "blue"
+       },
+
+
+        // Modules Section
+        "modules": [
+
+            "break",
+       {
+            "type": "custom",
+            "format": "   \u001b[31m❤    \u001b[32m❤    \u001b[33m❤    \u001b[34m❤    \u001b[35m❤    \u001b[36m❤    \u001b[37m❤    \u001b[90m❤   "
+       },
+       {
+            "type":"title",
+            "format":"{user-name-colored}{at-symbol-colored}{host-name-colored}"
+       },
+       {
+            "type": "custom",
+            "format": "\u001b[36m┌──────────────────‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ .",
+       },
+       {
+            "type": "custom",
+            "format": "\u001b[36m│{#Bold_Blue} Software‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ ."
+       },
+       {
+            "type": "kernel",
+            "key": "\u001b[36m│├\u001b[35mkernel",
+            "format": "",
+        },
+       {
+            "type": "os",
+            "key": "\u001b[36m│├\u001b[35mos    ",
+            "format": "{4} {9}",
+        },
+        {
+            "type": "wm",
+            "key": "\u001b[36m│├\u001b[35mwm    ",
+            "format": "{2}({3})",
+        },
+        {
+            "type": "packages",
+            "key": "\u001b[36m│├\u001b[35mpkgs  ",
+            "format": "",
+        },
+        {
+            "type": "shell",
+            "key": "\u001b[36m│├\u001b[35mshell ",
+        },
+        {
+            "type": "localip",
+            "key": "\u001b[36m│├\u001b[35mlanip ",
+        },
+        {
+            "type": "command",
+            "key": "\u001b[36m│├\u001b[35mage   ",
+            "format":"",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"  
+        },
+        {
+            "type": "uptime",
+            "key": "\u001b[36m│└\u001b[35muptime",
+            "format": "",
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[36m└──────────────────‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ ."
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[36m┌──────────────────‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ ."
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[36m│{#Bold_Blue} Hardware‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ ."
+        },
+        {
+            "type": "host",
+            "key": "\u001b[36m│├\u001b[35mhost  ",
+            "format": "",
+        },
+        {
+            "type": "cpu",
+            "key": "\u001b[36m│├\u001b[35mcpu   ",
+            "format": "{1}",
+        },
+        {
+            "type": "gpu",
+            "key": "\u001b[36m│├\u001b[35mgpu   ",
+            "format": "{2}",
+        },
+        {
+            "type": "memory",
+            "key": "\u001b[36m│├\u001b[35mram   ",
+            // format: used / total
+            "format": "{1} / {2}"
+        },
+        {
+            "type": "disk",
+            "key": "\u001b[36m│├\u001b[35mdisk  ",
+            "format": "",
+        },
+        {
+            "type": "sound",
+            "key": "\u001b[36m│├\u001b[35maudio ",
+        },
+        // {
+        //     "type": "keyboard",
+        //     "key": "\u001b[36m│├\u001b[35mcontrol",
+        // },
+        {
+            "type": "mouse",
+            "key": "\u001b[36m│├\u001b[35mcontrol"
+        },
+        {
+            "type": "display",
+            "key": "\u001b[36m│└\u001b[35mdisplay",
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[36m└──────────────────‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ ."
+        },
+        {
+            "type": "custom",
+            "format": "   \u001b[31m❤    \u001b[32m❤    \u001b[33m❤    \u001b[34m❤    \u001b[35m❤    \u001b[36m❤    \u001b[37m❤    \u001b[90m❤   "
+        },
+		"break",
+    ]
+}
