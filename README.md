@@ -4,7 +4,7 @@ please dont judge me i am just a stupid creature with a dream.<br>
 For the icon glyphs, you need to be using a nerd font! <br>
 https://www.nerdfonts.com/ 
 <br>
-<img width="950" height="677" alt="image" src="https://github.com/user-attachments/assets/513424d4-fdbd-412c-b45c-2dd9d79c1615" />
+<img width="1028" height="674" alt="image" src="https://github.com/user-attachments/assets/8966e56f-0f7d-4c91-b79a-5122173aba09" />
 <br>
 To use this config<br>
 ` git clone https://github.com/hazyashi/fastfetch-config.git `<br>
