@@ -36,11 +36,11 @@
        },
        {
             "type": "custom",
-            "format": "\u001b[36m┌──────────────────‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ .",
+            "format": "\u001b[36m┌──────────────────╌╌╌╌╌╌╌┄┄┄┄‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ .",
        },
        {
             "type": "custom",
-            "format": "\u001b[36m│{#Bold_Blue} Software‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ ."
+            "format": "\u001b[36m│{#Bold_Blue} Software‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ . ",
        },
        {
             "type": "kernel",
@@ -53,9 +53,9 @@
             "format": "{4} {9}",
         },
         {
-            "type": "wm",
+            "type": "de",
             "key": "\u001b[36m│├\u001b[35mwm    ",
-            "format": "{2}({3})",
+            "format": "",
         },
         {
             "type": "packages",
@@ -83,11 +83,11 @@
         },
         {
             "type": "custom",
-            "format": "\u001b[36m└──────────────────‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ ."
+            "format": "\u001b[36m└──────────────────╌╌╌╌╌╌╌┄┄┄┄‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ ."
         },
         {
             "type": "custom",
-            "format": "\u001b[36m┌──────────────────‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ ."
+            "format": "\u001b[36m┌──────────────────╌╌╌╌╌╌╌┄┄┄┄‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ ."
         },
         {
             "type": "custom",
@@ -131,7 +131,7 @@
         {
             "type": "command",
             "key": "\u001b[36m│├\u001b[35mkeyboard",
-           "text": "lsusb | cut -d' ' -f7- | sort -u | head -n 1"
+           "text": "lsusb | grep -E -i 'ASUSTek' | cut -d' ' -f7- | sort -u | head -n 1"
         },
         // I have a bug where the keyboard shows up twice on my pc so i comment these out and use manual commands instead shown above,
         // edit or comment those out if needed
@@ -149,7 +149,7 @@
         },
         {
             "type": "custom",
-            "format": "\u001b[36m└──────────────────‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ ."
+            "format": "\u001b[36m└──────────────────╌╌╌╌╌╌╌┄┄┄┄‧₊ ˚  ⊹ ࣭ ⭑ . ₊ ⊹ ."
         },
         {
             "type": "custom",
